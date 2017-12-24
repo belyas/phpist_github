@@ -1,0 +1,25 @@
+.commits_container {
+    width: 100%;
+    background-color: #e6eaed;
+    margin: 15px 0px;
+    color: #767676;
+}
+.commits_container .commit_title {
+    background-color: #3c4146;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+}
+.commits_container ul.commits_list {
+    padding: 0px 20px 10px 20px;
+}
+.commits_container ul.commits_list li {
+    margin-bottom: 15px;
+}
+.commits_container ul.commits_list li:last-child {
+    margin-bottom: 0px;
+}
+.commits_container .commit_url {
+	font-weight: bold;
+	color: #000;
+}
